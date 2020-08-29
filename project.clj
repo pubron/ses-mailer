@@ -1,4 +1,4 @@
-(defproject ses-mailer "0.0.5-SNAPSHOT"
+(defproject ses-mailer "0.0.4"
   :author "Johannes Staffans"
   :description "Clojure SES client"
   :url "https://github.com/jstaffans/ses-mailer"
@@ -6,7 +6,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [joda-time "2.8"]
-                 [com.amazonaws/aws-java-sdk-ses "1.11.192" :exclusions [joda-time]]
+                 [com.amazonaws/aws-java-sdk-ses "1.10.49" :exclusions [joda-time]]
                  [com.taoensso/encore "1.34.0"]]
   :profiles {:dev {:dependencies [[im.chit/vinyasa "0.3.4"]]}
              :test {:dependencies [[expectations "2.1.2"]]
